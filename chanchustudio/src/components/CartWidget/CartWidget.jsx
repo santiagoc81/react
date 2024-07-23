@@ -7,7 +7,7 @@ const IconoCarrito = <FontAwesomeIcon icon={faCartShopping} />
 
 const CartWidget = () => {
     return (
-        <div className='iconoCarrito'>
+        <div className='nav-link'>
             {IconoCarrito} 0
         </div>
     )

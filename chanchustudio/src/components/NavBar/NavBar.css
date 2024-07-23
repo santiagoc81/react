@@ -1,20 +1,16 @@
 .logo {
-    width: 150px; /* establezco el ancho del logo */
+    width: 100px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .navMenu {
-display: flex;
-z-index: 100;
-position: sticky;
-top: 0px;
-background-color: white;
-justify-content: space-around;
-width: 100%;
-font-size: 30px;
-}
-.navMenu a {
-color: #1d1d1d;
-}
-.navMenu a:hover {
-color: #FF0000;
+    display: flex;
+    z-index: 100;
+    position: sticky;
+    top: 0px;
+    background-color: #03142e;
+    justify-content: space-around;
+    width: 100%;
+    font-size: 30px;
 }
